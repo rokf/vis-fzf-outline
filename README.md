@@ -23,6 +23,12 @@ Requiring this plugin's `init.lua` file (see installation section above) should 
 
 The `init.lua` file contains a few default outline matchers.
 
+I suggest adding a key map if you're planning to use the command often. Example (`visrc.lua`):
+
+```lua
+vis:command('map! normal <C-t> :outline<Enter>')
+```
+
 ### Registering your own matchers
 
 The plugin returns its matcher table and it can be modified. Example (`visrc.lua`):
