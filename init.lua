@@ -1,10 +1,8 @@
 local m = {
 	['go'] = {
 		[function () return true end] = {
-			'type%s+[A-Za-z]',
-			'func%s+[A-Za-z]',
-			'^\t[A-Z]',
-			'^\t[^=]+='
+			'type ',
+			'func '
 		}
 	},
 	['lua'] = {
